@@ -56,7 +56,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+The two possible architectures for CUSTOMER_ADDRESS would be 
+(1) TYPE 1: a single-row-per-customer design that stores only the most recent address, and OVERWRITES prior values when changes occur (history is not retained), 
+(2) TYPE 2: a multi-row-per-customer design where each address change inserts a new row and RETAINS previous rows (history is retained). This one probably would need a flag that indicates the current address as opposed to the historic ones.
 ```
 
 ***
@@ -191,5 +193,5 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Some of the ethical issues important to this story are social construction of technology, embedded values in data systems, hidden human labour behind LLM-based AI systems, etc. As far as I understand, LLMs are actually just regurgitating the stuff humans put forward. In other words, the stuff GenAI are trained from are all human-made. So, it makes a lot of sense that GenAI are fundamentally reflective of human labour and judgement. While a lot of people think GenAI is fully automated, there are a lot of behind the scene human interaction, and GenAI carries through human biases as well. The prospect of a full on AI takeover definitely is not unfounded, but I believe at this stage of the technology, this is far-fetched. That said, this does not mean we are not responsible for the ethical development and use of AI, as the technology does have a profound impact in our everyday lives now as more people are relying on it for day-to-day inquiries and information. We also really cannot be certain that AI will ever not reach singularity... We need to make sure that we are sufficiently moderating content that is being fed to train LLM models, and actively put safeguards against it so the technology is not used to harm us in any way in the future. This includes cases where a person might be putting thoughts that may be harmful for themselves or to others, and making sure that these kinds of inquiries are flagged to the right authorities and be dealt with promptly before any damage might occur. Now, this opens up another can of worms on whether it is appropriate to give that much power to an authority, but that is for another day's discussion!
 ```
