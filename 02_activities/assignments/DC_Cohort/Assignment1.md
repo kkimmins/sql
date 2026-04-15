@@ -209,5 +209,9 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+The above article is an interesting case of Social Construction of Technology, which is a topic I learned 12 years ago in my engineering, society, and ethics class. The example in the article adds another layer to it though, as there is the element of enforcement by authority (in this case, the government), where technological design decisions are not only shaped by social values but also actively used to regulate access to rights and services. Databases and data systems are inseparable from our modern daily lives. Some examples that immediately come to mind are social media platforms and fitness tracking devices or apps. These platforms likely prioritize quantification, standardization, and efficiency, as they collect vast amounts of personal data over time to generate revenue and optimize engagement.
+
+The users of these technologies willingly give away their private information and behavioural patterns in real time, often in exchange for convenience or personalized insights. With the advent of large language models and generative AI, the rate at which individuals are providing and generating personal data has likely accelerated significantly. These systems also embed implicit value judgments. For example, equating higher engagement with higher value, or assuming that all users can be cleanly categorized into predefined groups. While companies often state that they do not discriminate based on the data they collect, the underlying algorithms may still reinforce existing inequalities if they are trained on biased historical data.
+
+Furthermore, issues of data privacy, surveillance, and control become increasingly important as these systems scale. We do not truly know what happens behind the scenes, and there is always a risk that data may be leaked, misused, or repurposed in ways that disadvantage certain groups. As a result, society must remain vigilant in holding companies accountable, advocating for stronger data protection laws, and critically evaluating how and when we share our personal information online.
 ```
